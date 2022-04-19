@@ -1,0 +1,12 @@
+{
+    "name": "OSAMU for Aozora Bunko",
+    "description": "青空文庫を読みやすくします",
+    "version": "1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://www.aozora.gr.jp/*"],
+        "css": ["mystyle.css"]
+      }
+    ]
+  }
